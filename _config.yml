@@ -1,0 +1,39 @@
+baseurl: '/'
+permalink: pretty
+title: 'Team Awareness Kit for New Zealand'
+
+logo:
+  mobile: "images/logo/logo.svg"
+  mobile_height: "32px"
+  mobile_width: "32px"
+  desktop: "images/logo/logo.svg"
+  desktop_height: "64px"
+  desktop_width: "120px"
+
+home: 
+  limit_services: 6
+
+collections:
+  services:
+    output: true
+    sort_by: weight
+  team:
+    output: true
+
+sass:
+  style: compressed # possible values: nested expanded compact compressed
+
+plugins:
+  - jekyll-environment-variables
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - LICENSE
+  - README.md

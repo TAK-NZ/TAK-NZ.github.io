@@ -1,0 +1,29 @@
+[
+  {
+    "title": "Situational Awareness",
+    "description": "Improves the operational efficiency of emergency responders by sharing incident information.",
+    "image": {
+      "url": "images/features/noun_branding_1885335.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Safety",
+    "description": "Empowers emergency responders to make well-informed decisions based on real-time data.",
+    "image": {
+      "url": "images/features/noun_3d modeling_1885342.svg",
+      "width": 80,
+      "height": 80
+    }
+  },
+  {
+    "title": "Team Coordination",
+    "description": "Emergency responders can locate themselves, their team members and other enrolled agency personnel in real-time.",
+    "image": {
+      "url": "images/features/noun_The Process_1885341.svg",
+      "width": 80,
+      "height": 80
+    }
+  }
+]
