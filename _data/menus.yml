@@ -11,6 +11,6 @@ footer:
   - name: "About"
     url: "/about/"
     weight: 2    
-//  - name: "Contact"
-//    url: "/contact/"
-//    weight: 2
+  - name: "Contact"
+    url: "/contact/"
+    weight: 3
