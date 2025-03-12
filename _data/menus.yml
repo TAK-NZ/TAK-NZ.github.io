@@ -1,0 +1,16 @@
+main:
+  - name: "About"
+    url: "/about/"
+    weight: 1
+  - name: "Login"
+    url: "https://map.tak.nz"
+    class: "button"
+    weight: 2
+
+footer:
+  - name: "Home"
+    url: "/"
+    weight: 1
+//  - name: "Contact"
+//    url: "/contact/"
+//    weight: 2
