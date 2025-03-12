@@ -4,13 +4,26 @@ layout: contact
 description: Contact
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
-
-| Day       | Opening Hours   |
-| --------- | --------------- |
-| Tuesday   | 8:30am - 5:00pm |
-| Wednesday | 8:30am - 5:00pm |
-| Thursday  | 8:30am - 5:00pm |
-| Friday    | 8:30am - 5:00pm |
-| Saturday  | 10:am - 4:00pm  |
-| Saturday  | Closed          |
+<form
+  action="https://formspree.io/f/mqapkyoy"
+  class="fs-form"
+  target="_top"
+  method="POST"
+>
+  <div class="fs-field">
+    <label class="fs-label" for="name">Name</label>
+    <input class="fs-input" id="name" name="name" />
+  </div>
+  <div class="fs-field">
+    <label class="fs-label" for="email">Email</label>
+    <input class="fs-input" id="email" name="email" required />
+  </div>
+  <div class="fs-field">
+    <label class="fs-label" for="message">Message</label>
+    <textarea class="fs-textarea" id="message" name="message"></textarea>
+    <p class="fs-description">We usually respond within 1-2 business days.</p>
+  </div>
+  <div class="fs-button-group">
+    <button class="fs-button" type="submit">Send</button>
+  </div>
+</form>

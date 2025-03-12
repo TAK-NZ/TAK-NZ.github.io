@@ -13,5 +13,3 @@ Using dots on a map, TAK.NZ users can locate themselves, their team members, and
 
 TAK.NZ is available free of charge to all New Zealand public safety agencies. Join us in deploying the future of public safety.
 
-
-
