@@ -9,4 +9,4 @@ show_call_box: false
 ---
 # When <span style="color:#e5261f">*Where*</span> Matters.
 
-Experience New Zealand's free real-time location service for emergency responders.
+Experience New Zealand's real-time location service for emergency responders.
