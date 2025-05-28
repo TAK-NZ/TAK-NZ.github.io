@@ -2,7 +2,7 @@
 title: About
 layout: services
 description: About
-intro_image: "images/NZMap.png"
+intro_image: "images/TAK-NZ-CloudTAK-Screenshot-Cropped.png"
 intro_image_hide_on_mobile: true
 bodyClass: page-about
 ---
