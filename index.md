@@ -1,5 +1,5 @@
 ---
-title: Team Awareness Kit for New Zealand
+title: Team Awareness Kit - Te mōhio o te rōpū
 layout: home
 description: When Where Matters. Experience New Zealand's free real-time location service for emergency responders.
 intro_image: "images/nztakusage.jpg"
