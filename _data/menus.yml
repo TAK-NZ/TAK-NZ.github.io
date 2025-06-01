@@ -1,6 +1,6 @@
 main:
   - name: "Login"
-    url: "https://map.tak.nz"
+    url: "https://account.dev.tak.nz"
     class: "button"
     weight: 1
 

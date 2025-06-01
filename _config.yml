@@ -1,14 +1,14 @@
 baseurl: '/'
 permalink: pretty
-title: 'Team Awareness Kit for New Zealand'
+title: 'Team Awareness • Te mōhio o te rōpū'
 
 logo:
-  mobile: "images/logo/logo.svg"
+  mobile: "images/logo/logo_mobile.svg"
   mobile_height: "32px"
   mobile_width: "32px"
   desktop: "images/logo/logo.svg"
   desktop_height: "64px"
-  desktop_width: "120px"
+  desktop_width: "310px"
 
 home: 
   limit_services: 6
