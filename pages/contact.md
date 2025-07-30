@@ -2,6 +2,7 @@
 title: Contact
 layout: contact
 description: Contact
+permalink: /contact/
 ---
 
 <form
@@ -21,7 +22,7 @@ description: Contact
   <div class="fs-field">
     <label class="fs-label" for="message">Message</label>
     <textarea class="fs-textarea" id="message" name="message"></textarea>
-    <p class="fs-description">We usually respond within 1-2 business days.</p>
+    <p class="fs-description"></p>
   </div>
   <div class="fs-button-group">
     <button class="fs-button" type="submit">Send</button>

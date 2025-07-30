@@ -19,6 +19,16 @@
         &:hover {
           text-decoration: underline;
         }
+        &.button {
+          color: #ffffff !important;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          &:hover {
+            color: #ffffff !important;
+            text-decoration: none;
+          }
+        }
       }
       &.active {
         > a {
