@@ -10,7 +10,16 @@ footer:
     weight: 1
   - name: "About"
     url: "/about/"
-    weight: 2    
+    weight: 2
+  - name: "Technology"
+    url: "/technology/"
+    weight: 3
+  - name: "Integrations"
+    url: "/integrations/"
+    weight: 4
+  - name: "Security"
+    url: "/security/"
+    weight: 5
   - name: "Contact"
     url: "/contact/"
-    weight: 3
+    weight: 6

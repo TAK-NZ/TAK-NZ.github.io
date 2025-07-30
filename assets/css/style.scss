@@ -1,13 +1,14 @@
 ---
 ---
 
-// Colors
-$primary: #e5261f;
-$primary-dark: #a01b16;
-$secondary: #f88379;
+// Colors - NGCC Government Style
+$primary: #003366;        // Deep blue (government blue)
+$primary-dark: #002244;   // Darker blue
+$secondary: #0066cc;      // Lighter blue
+$secondary-dark: #004499; // Medium blue
 $black: #2f2f41;
 $white: #ffffff;
-$white-offset: #fff6f8;
+$white-offset: #f8f9fa;   // Light grey-blue
 $steel: #5c5a5a;
 
 // Links
@@ -21,9 +22,9 @@ $font-family-base: "Archivo Regular", sans-serif, -apple-system;
 $font-family-heading: "Archivo Regular", sans-serif, -apple-system;
 
 // Footer
-$footer-background-color: $primary;
+$footer-background-color: $primary-dark;
 $footer-text-color: $white;
-$sub-footer-background-color: darken($primary, 10%);
+$sub-footer-background-color: $primary-dark;
 $sub-footer-text-color: $white;
 
 // Bootstrap 5.3.2

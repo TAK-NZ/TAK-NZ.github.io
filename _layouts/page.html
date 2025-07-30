@@ -11,5 +11,14 @@ bodyClass: "page-basic"
                 <div class="content">{{content}}</div>
             </div>
         </div>
+        {% if page.intro_image %}
+        <div class="col-12 col-md-4">
+            {% if page.bodyClass == 'page-about' %}
+            <img alt="{{ page.title }}" class="img-fluid" src="{{ page.intro_image | relative_url }}" style="width: 100%;" />
+            {% else %}
+            <img alt="{{ page.title }}" class="img-fluid" src="{{ page.intro_image | relative_url }}" style="max-width: 200px;" />
+            {% endif %}
+        </div>
+        {% endif %}
     </div>
 </div>
