@@ -9,7 +9,7 @@ bodyClass: page-about
 
 ## Connecting New Zealand's Emergency Responders
 
-TAK.NZ provides real-time situational awareness for New Zealand's emergency services, enabling seamless coordination between Police, Fire and Emergency New Zealand, St John, and other first responder organisations.
+TAK.NZ (Team Awareness Kit for New Zealand) provides real-time situational awareness for New Zealand's emergency services, enabling seamless coordination between Police, Fire and Emergency New Zealand, St John, and other first responder organisations.
 
 ### Built for New Zealand's Unique Challenges
 
