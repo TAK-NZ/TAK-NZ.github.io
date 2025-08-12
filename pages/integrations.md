@@ -17,11 +17,7 @@ TAK.NZ integrates data from multiple sources to create a unified operational pic
 - Land Information New Zealand (LINZ) topographic and cadastral data
 - Real-time weather alerts and forecasts from MetService
 - New Zealand Transport Agency (NZTA) traffic and road closure data
-
-**Emergency Service Systems**
-- Computer Aided Dispatch (CAD) system connectivity for Police, FENZ, and St John
-- Vehicle and personnel tracking across services
-- Incident data sharing between Police, Fire and Emergency, and ambulance services
+- GeoNet New Zealand earthquake and volcano alerts for enhanced situational awareness
 
 ### Custom Integration Support
 
