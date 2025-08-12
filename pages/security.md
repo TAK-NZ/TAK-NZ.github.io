@@ -8,9 +8,6 @@ intro_image: "images/Amazon_Web_Services_Logo.png"
 
 ## Security & Resiliency for New Zealand Emergency Services
 
-### Data Sovereignty
-**Your data stays in New Zealand** - TAK.NZ operates within AWS's Auckland region, ensuring complete data sovereignty within New Zealand jurisdiction.
-
 ### Security
 **Enterprise-grade protection** built on AWS infrastructure:
 - End-to-end encryption for all communications
