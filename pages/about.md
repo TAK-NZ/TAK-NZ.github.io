@@ -3,7 +3,6 @@ title: About
 layout: page
 description: About
 permalink: /about/
-intro_image: "images/NZ-EmergencyServices.jpg"
 bodyClass: page-about
 ---
 
