@@ -3,7 +3,7 @@ title: Security & Privacy
 layout: page
 description: Security, privacy, and resiliency for New Zealand emergency services
 permalink: /security/
-intro_image: "images/Amazon_Web_Services_Logo.png"
+intro_image: "images/powered-by-aws.png"
 ---
 
 ## Security & Resiliency for New Zealand Emergency Services
