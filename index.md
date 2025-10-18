@@ -9,4 +9,4 @@ show_call_box: false
 ---
 # When <span style="color:#004499">*Where*</span> Matters.
 
-**See your team, share information, save lives.** TAK.NZ (Team Awareness Kit) is New Zealand's real-time location service for emergency responders.
+**See your team, share information, save lives.** TAK.NZ (Team Awareness Kit) is New Zealand's common operating platform providing a real-time Common Operating Picture (COP) for emergency responders.

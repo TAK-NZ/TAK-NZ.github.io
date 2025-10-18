@@ -27,6 +27,17 @@ Supports emergency service protocols used in New Zealand and standard geographic
 **Local Expertise**
 Our team understands New Zealand's emergency service landscape and can develop custom integrations for your organisation's specific systems and requirements.
 
+### Future Integrations
+
+**Proven Capabilities Available for Implementation**
+- Emergency dispatch integration - Automatic display of 111 call locations and incident data from computer-aided dispatch (CAD) systems
+- Live video streaming from UAVs and manned aircraft - Real-time aerial surveillance feeds
+- Automatic vehicle location (AVL) tracking - Fleet and personnel positioning
+- Body-worn camera integration - Live video feeds from field personnel
+- Sensor network integration - Environmental and infrastructure monitoring
+
+These proven integrations are successfully deployed by emergency services worldwide and can be adapted for New Zealand's requirements.
+
 ---
 
 **Ready to integrate your systems?** Contact our technical team to discuss your integration requirements and develop a custom solution for your organization.
