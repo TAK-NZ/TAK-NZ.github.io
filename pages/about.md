@@ -3,7 +3,7 @@ title: About
 layout: page
 description: About
 permalink: /about/
-intro_image: "images/TAK-NZ-Data-Wildfire.png"
+intro_image: "images/TAK-NZ-WildFire.png"
 bodyClass: page-about
 ---
 
