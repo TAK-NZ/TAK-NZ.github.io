@@ -14,7 +14,7 @@
   align-items: center;
   flex-direction: column;
   &.open {
-    opacity: 0.9;
+    opacity: 1;
     visibility: visible;
     height: 100%;
     z-index: 20;
@@ -59,6 +59,29 @@
         overflow: hidden;
         &:hover {
           opacity: 0.8;
+        }
+      }
+    }
+  }
+  .main-menu-mobile-cta {
+    margin-top: 20px;
+    li {
+      display: inline-block;
+      a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        &.button {
+          font-size: 15px;
+          color: #ffffff;
+        }
+        &.button-outline {
+          font-size: 15px;
+          color: $secondary;
+          &:hover {
+            color: #ffffff;
+            opacity: 1;
+          }
         }
       }
     }

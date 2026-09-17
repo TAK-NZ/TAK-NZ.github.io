@@ -1,27 +1,27 @@
 ---
 title: Security & Privacy
 layout: page
-description: Security, privacy, and resiliency for New Zealand emergency services
+description: Security, identity, and infrastructure behind New Zealand's emergency services platform
 permalink: /security/
 intro_image: "images/powered-by-aws.png"
 ---
 
-## Security & Resiliency for New Zealand Emergency Services
+## Your Information, Protected
 
-### Security
-**Enterprise-grade protection** built on AWS infrastructure:
-- End-to-end encryption for all communications
-- Multi-factor authentication and role-based access
-- ISO 27001 and SOC 2 certified data centres
-- 24/7 security monitoring and threat detection
+Security matters more, not less, in an emergency. TAK.NZ is built so your team can trust what they see and control who sees it.
 
-### Resiliency
-**Always available when you need it** - designed for 99.99% uptime:
-- Multi-zone architecture with automatic failover
-- Auto-scaling for major emergency responses
-- Offline capability for remote New Zealand locations
-- Automated backups and disaster recovery
+### Signing In, Made Simple and Safe
+
+You can sign in with a passkey — using your fingerprint, face, or PIN instead of typing a password — or with a password plus a second check, like a code from an authenticator app. Each device you use is set up individually, so if a phone is ever lost, you can switch it off without affecting anyone else's access.
+
+### You Control Who Sees What
+
+Every organisation manages its own people, devices, and access. What your team shares with other agencies is always something you choose — nobody sees your team's internal coordination unless you've decided to share it.
+
+### Open, Not a Black Box
+
+TAK.NZ's technology is fully open source, meaning the systems protecting your information aren't hidden away — they're publicly available for anyone to inspect. We'd rather earn your trust than just ask for it.
 
 ---
 
-**Questions about security?** Contact our team to discuss your organisation's specific requirements.
+**Questions about security?** [Contact our team](/contact/) to discuss your organisation's specific requirements.

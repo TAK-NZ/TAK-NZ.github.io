@@ -1,28 +1,30 @@
 ---
 title: Technology
 layout: page
-description: The technology foundation behind TAK.NZ
+description: How TAK.NZ works, the clients you can use, and the open source platform behind it
 permalink: /technology/
-intro_image: "images/TAK-NZ-CloudTAK-Screenshot.png"
+intro_image: "images/TAK-NZ-Technology.jpg"
 bodyClass: page-about
 ---
 
-## Proven Technology, Local Support
+## One Shared Map, Updated in Real Time
 
-Built on the globally-trusted Team Awareness Kit (TAK) platform used by military and emergency services worldwide, TAK.NZ is specifically configured for New Zealand's emergency response needs.
+TAK (Team Awareness Kit) puts every responding unit, vehicle, aircraft, and hazard on a live, shared map that everyone on the same channel can see at once. It's used by public safety agencies around the world for exactly this reason: it solves the problem of knowing who's where, in real time, across agencies that don't normally share a radio channel or a records system.
 
-## Open Source Foundation
+TAK.NZ runs on whatever device you already carry — a phone, a tablet, a laptop, or a browser on a command post screen. Everyone sees the same picture, just presented the way that works best for how you're using it.
 
-**100% Free and Open Source Software** - TAK.NZ is built entirely on open source technologies, providing:
+## RELAY: Your AI Assistant, Built for New Zealand
 
-**Community-driven innovation** - Benefit from global development and security contributions
+TAK.NZ includes RELAY, a built-in AI assistant you can chat with right inside the app. Ask RELAY a question about emergency response procedures, get the latest GeoNet earthquake or volcano alert, check current road closures, or ask it to drop a marker on the map for you — all without switching tools or looking anything up.
 
-**Cost effectiveness** - No vendor lock-in or licensing fees for core functionality
+RELAY is unique to TAK.NZ. It's not something you'd find in TAK elsewhere in the world — it's been purpose-built around how New Zealand responders actually work.
 
-**Transparency and trust** - Full visibility into the technology protecting your operations
+## Built for How New Zealand Responds
 
-**Local customisation** - Ability to adapt and extend the platform for New Zealand's specific needs
+Every responder on the map shows up as a colour-coded dot, and the colour tells you what they do — red for fire and rescue, blue for police, green for health and ambulance, and so on. You can tell at a glance what kind of responder you're looking at, even in a large, busy, multi-agency response.
+
+TAK.NZ is also fully open source — the technology behind it isn't a black box, and it's freely available for anyone to review. Read more about our approach to [security](/security/).
 
 ---
 
-**Questions about our technology?** Contact our technical team to discuss implementation details and customisation options for your organisation.
+**Questions about our technology?** [Contact our technical team](/contact/) to discuss implementation details for your organisation.

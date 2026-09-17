@@ -1,43 +1,24 @@
 ---
 title: Integrations & Data Feeds
 layout: page
-description: Connect TAK.NZ with your existing systems and data sources
+description: Connect TAK.NZ with New Zealand's geographic, weather, and emergency data sources
 permalink: /integrations/
-intro_image: "images/TAK-NZ-Data-Overlays.png"
+intro_image: "images/TAK-NZ-Integrations.jpg"
 bodyClass: page-about
 ---
 
-## One Platform, All Your Data
+## More Than Just Your Team's Positions
 
-TAK.NZ integrates data from multiple sources to create a unified operational picture for New Zealand's emergency services.
+TAK.NZ doesn't only show where your people are — it also brings in live information from outside sources and displays it right alongside your team, on the same map, with no extra tool to learn.
 
-### Current Integrations
+During a wildfire, that might mean seeing firefighting aircraft in the sky above your crews. During a maritime search, it might mean seeing nearby vessels. During a severe weather event, it might mean seeing the latest official weather warnings and Civil Defence alerts appear automatically, right where they're relevant on the map.
 
-**New Zealand Geographic Data**
-- Land Information New Zealand (LINZ) topographic and cadastral data
-- Real-time weather alerts and forecasts from MetService
-- New Zealand Transport Agency (NZTA) traffic and road closure data
-- GeoNet New Zealand earthquake and volcano alerts for enhanced situational awareness
+Other feeds already available include live earthquake and volcano activity from GeoNet, satellite-based fire detection, and beach safety and water quality status — each one just another layer you can turn on or off depending on what you need for the job at hand.
 
-### Custom Integration Support
+### Growing With New Zealand's Needs
 
-**New Zealand Standards**
-Supports emergency service protocols used in New Zealand and standard geographic data formats including KML, GeoJSON, and real-time streaming.
-
-**Local Expertise**
-Our team understands New Zealand's emergency service landscape and can develop custom integrations for your organisation's specific systems and requirements.
-
-### Future Integrations
-
-**Proven Capabilities Available for Implementation**
-- Emergency dispatch integration - Automatic display of 111 call locations and incident data from computer-aided dispatch (CAD) systems
-- Live video streaming from UAVs and manned aircraft - Real-time aerial surveillance feeds
-- Automatic vehicle location (AVL) tracking - Fleet and personnel positioning
-- Body-worn camera integration - Live video feeds from field personnel
-- Sensor network integration - Environmental and infrastructure monitoring
-
-These proven integrations are successfully deployed by emergency services worldwide and can be adapted for New Zealand's requirements.
+New data feeds are added as they become useful for New Zealand's emergency response community, and TAK.NZ's integration approach is openly documented, so it's not locked to a fixed set of sources.
 
 ---
 
-**Ready to integrate your systems?** Contact our technical team to discuss your integration requirements and develop a custom solution for your organization.
+**Ready to integrate your systems?** [Contact our technical team](/contact/) to discuss your integration requirements and develop a custom solution for your organisation.

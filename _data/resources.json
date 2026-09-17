@@ -1,0 +1,12 @@
+[
+  {
+    "name": "Documentation",
+    "link": "https://docs.tak.nz",
+    "image": "images/icons/book.svg"
+  },
+  {
+    "name": "Status Page",
+    "link": "https://status.tak.nz/",
+    "image": "images/social/status.svg"
+  }
+]

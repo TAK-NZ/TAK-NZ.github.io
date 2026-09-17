@@ -1,6 +1,20 @@
+primary:
+  - name: "About"
+    url: "/about/"
+    weight: 1
+  - name: "Technology"
+    url: "/technology/"
+    weight: 2
+  - name: "Integrations"
+    url: "/integrations/"
+    weight: 3
+  - name: "Security"
+    url: "/security/"
+    weight: 4
+
 main:
   - name: "Sign Up"
-    url: "https://team.test.tak.nz/request-access"
+    url: "https://team.demo.tak.nz/request-access"
     class: "button-outline"
     weight: 1
   - name: "Login"
@@ -11,19 +25,25 @@ main:
 footer:
   - name: "Home"
     url: "/"
+    image: "images/icons/house.svg"
     weight: 1
   - name: "About"
     url: "/about/"
+    image: "images/icons/circle-info.svg"
     weight: 2
   - name: "Technology"
     url: "/technology/"
+    image: "images/icons/microchip.svg"
     weight: 3
   - name: "Integrations"
     url: "/integrations/"
+    image: "images/icons/puzzle-piece.svg"
     weight: 4
   - name: "Security"
     url: "/security/"
+    image: "images/icons/shield-halved.svg"
     weight: 5
   - name: "Contact"
     url: "/contact/"
+    image: "images/icons/envelope.svg"
     weight: 6

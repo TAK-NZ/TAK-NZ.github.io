@@ -1,6 +1,14 @@
 <div id="main-menu" class="main-menu">
+  {% assign primarymenu = site.data.menus.primary | sort: 'weight'  %}
+  <ul class="main-menu-primary">
+    {% for item in primarymenu %}
+    <li class="{% if item.url == page.url %}active{% endif %}">
+      <a href="{{ item.url | relative_url }}"{% if item.class %} class="{{ item.class }}"{% endif %}>{{ item.name }}</a>
+    </li>
+    {% endfor %}
+  </ul>
   {% assign mainmenu = site.data.menus.main | sort: 'weight'  %}
-  <ul>
+  <ul class="main-menu-cta">
     {% for item in mainmenu %}
     <li class="{% if item.url == page.url %}active{% endif %}">
       <a href="{{ item.url | relative_url }}"{% if item.class %} class="{{ item.class }}"{% endif %}>{{ item.name }}</a>

@@ -1,16 +1,17 @@
 .main-menu {
   display: none;
   @include media-breakpoint-up(md) {
-    display: block;
+    display: flex;
+    align-items: center;
   }
-  > ul {
+  ul {
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    > li {
+    li {
       list-style: none;
       font-size: 1rem;
-      > a {
+      a {
         padding: 10px 12px 10px 12px;
         display: inline-block;
         font-weight: normal;
@@ -42,7 +43,7 @@
         }
       }
       &.active {
-        > a {
+        a {
           font-weight: bold;
           text-decoration: none;
           &:hover {
@@ -52,5 +53,10 @@
         }
       }
     }
+  }
+  .main-menu-primary {
+    margin-right: 8px;
+    padding-right: 16px;
+    border-right: 1px solid rgba($primary, 0.15);
   }
 }

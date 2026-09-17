@@ -7,11 +7,24 @@
           {% assign footermenu = site.data.menus.footer | sort: 'weight'  %}
           {% for item in footermenu %}
           <li class="{% if item.url == page.url %}active{% endif %}">
-            <a href="{{ item.url | relative_url }}">{{ item.name }}</a>
+            <a href="{{ item.url | relative_url }}"{% if item.image %} class="footer-social-link" style="--icon: url('{{ item.image | relative_url }}');"{% endif %}>{{ item.name }}</a>
           </li>
           {% endfor %}
         </ul>
       </div>
+
+      {% if site.data.resources %}
+      <div class="footer-column">
+        <h6 class="footer-column-title">Resources</h6>
+        <ul>
+          {% for item in site.data.resources %}
+          <li>
+            <a class="footer-social-link" href="{{ item.link }}" target="_blank" rel="noopener noreferrer" style="--icon: url('{{ item.image | relative_url }}');">{{ item.name }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endif %}
 
       {% if site.data.social %}
       <div class="footer-column">
