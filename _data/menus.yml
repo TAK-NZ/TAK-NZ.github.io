@@ -1,8 +1,12 @@
 main:
+  - name: "Sign Up"
+    url: "https://team.test.tak.nz/request-access"
+    class: "button-outline"
+    weight: 1
   - name: "Login"
     url: "https://account.demo.tak.nz"
     class: "button"
-    weight: 1
+    weight: 2
 
 footer:
   - name: "Home"

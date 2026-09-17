@@ -12,9 +12,23 @@ bodyClass: "page-home"
           {% include call.html show_button=true %}
         {% endif %}
       </div>
-      {% if page.intro_image %}
+      {% if page.intro_videos %}
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative{% if page.intro_image_hide_on_mobile %} intro-media-hide-mobile{% endif %}">
+        <video class="intro-video" autoplay muted playsinline aria-hidden="true" poster="{{ page.intro_image | relative_url }}" data-playlist="[{% for src in page.intro_videos %}{% unless forloop.first %},{% endunless %}&quot;{{ src | relative_url }}&quot;{% endfor %}]">
+          <source src="{{ page.intro_videos.first | relative_url }}" type="video/mp4" />
+        </video>
+        <img alt="{{ page.title }}" class="intro-image intro-video-fallback" src="{{ page.intro_image | relative_url }}" />
+      </div>
+      {% elsif page.intro_video %}
+      <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative{% if page.intro_image_hide_on_mobile %} intro-media-hide-mobile{% endif %}">
+        <video class="intro-video" autoplay muted loop playsinline aria-hidden="true" poster="{{ page.intro_image | relative_url }}">
+          <source src="{{ page.intro_video | relative_url }}" type="video/mp4" />
+        </video>
+        <img alt="{{ page.title }}" class="intro-image intro-video-fallback" src="{{ page.intro_image | relative_url }}" />
+      </div>
+      {% elsif page.intro_image %}
       <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
-        <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
+        <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" />
       </div>
       {% endif %}
     </div>
@@ -52,10 +66,10 @@ bodyClass: "page-home"
     <div class="row justify-content-center">
 
       {% for feature in site.data.features %}
-      <div class="col-12 col-md-6 col-lg-4 mb-2">
+      <div class="col-12 col-md-6 col-lg-4 mb-4">
         <div class="feature">
-          {% if feature.image %}
-          <div class="feature-image"><img alt="{{ feature.title }} logo" src="{{ feature.image.url | relative_url }}" width="{{ feature.image.width }}" height="{{ feature.image.height }}" /></div>
+          {% if feature.icon %}
+          <div class="feature-icon"><img src="{{ feature.icon | relative_url }}" alt="" width="28" height="28" /></div>
           {% endif %}
           <h2 class="feature-title">{{ feature.title }}</h2>
           <div class="feature-content">{{ feature.description }}</div>

@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none">
+  <title>Safety icon</title>
+  <path d="M12 3L19 6V11C19 16 15.5 19.5 12 21C8.5 19.5 5 16 5 11V6L12 3Z" stroke="#003366" stroke-width="1.5" stroke-linejoin="round"/>
+  <path d="M8.75 12L11 14.25L15.25 10" stroke="#003366" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -24,6 +24,17 @@
           display: flex;
           align-items: center;
           justify-content: center;
+          margin-left: 8px;
+          &:hover {
+            color: #ffffff !important;
+            text-decoration: none;
+          }
+        }
+        &.button-outline {
+          color: $secondary !important;
+          display: flex;
+          align-items: center;
+          justify-content: center;
           &:hover {
             color: #ffffff !important;
             text-decoration: none;

@@ -33,3 +33,34 @@
     display: block;
   }
 }
+
+// On mobile, the video is replaced by its static poster image
+// (.intro-video-fallback) to avoid burning data/battery on autoplay.
+.intro-video {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  display: none;
+  @include media-breakpoint-up(md) {
+    display: block;
+  }
+}
+
+.intro-video-fallback {
+  display: block;
+  margin-top: 0;
+  border-radius: 6px;
+  @include media-breakpoint-up(md) {
+    display: none;
+  }
+}
+
+.intro-media-hide-mobile {
+  // Suppress both the video and its poster fallback below the md breakpoint.
+  // At md and above, .intro-video / .intro-video-fallback behave as normal.
+  @media (max-width: 767.98px) {
+    .intro-video, .intro-video-fallback {
+      display: none !important;
+    }
+  }
+}
